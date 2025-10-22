@@ -1,0 +1,155 @@
+.attorneys-hero {
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  color: white;
+  text-align: center;
+}
+
+.attorneys-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.attorneys-hero p {
+  font-size: 1.25rem;
+  opacity: 0.9;
+}
+
+.attorneys-content {
+  background: #f8fafc;
+}
+
+.attorney-profile {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 3rem;
+  background: white;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.attorney-image {
+  display: flex;
+  justify-content: center;
+}
+
+.image-placeholder {
+  width: 250px;
+  height: 300px;
+  background: linear-gradient(135deg, #e5e7eb 0%, #d1d5db 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6b7280;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.attorney-info h2 {
+  color: #1e40af;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.attorney-info h3 {
+  color: #6b7280;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.attorney-info p {
+  color: #374151;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.practice-areas,
+.education {
+  margin-bottom: 2rem;
+}
+
+.practice-areas h4,
+.education h4 {
+  color: #1e40af;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.practice-areas ul,
+.education ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.practice-areas li,
+.education li {
+  color: #374151;
+  padding: 0.25rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.practice-areas li::before,
+.education li::before {
+  content: "•";
+  color: #1e40af;
+  position: absolute;
+  left: 0;
+}
+
+.team-values {
+  background: white;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.value-card {
+  text-align: center;
+  padding: 2rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+}
+
+.value-card h3 {
+  color: #1e40af;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.value-card p {
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .attorneys-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .attorney-profile {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .attorney-image {
+    order: -1;
+  }
+  
+  .image-placeholder {
+    width: 200px;
+    height: 250px;
+  }
+}
