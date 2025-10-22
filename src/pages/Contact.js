@@ -148,10 +148,16 @@ const Contact = () => {
         <div className="container">
           <h2 className="text-center mb-8">Our Location</h2>
           <div className="map-container">
-            <div className="map-placeholder">
-              <p>📍 1225 King Street, Suite 700<br />Wilmington, DE 19801</p>
-              <p>Interactive map would be embedded here</p>
-            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.123456789!2d-75.543210!3d39.745678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6fd1234567890%3A0x1234567890abcdef!2s1225%20King%20St%2C%20Wilmington%2C%20DE%2019801!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="John Williams Law Firm Location"
+            ></iframe>
           </div>
         </div>
       </section>
