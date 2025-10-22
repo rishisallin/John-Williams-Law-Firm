@@ -20,7 +20,7 @@ const Header = () => {
           
           <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
             <Link to="/" className="nav-link">Home</Link>
-            <Link to="/attorneys" className="nav-link">Attorneys</Link>
+            <Link to="/attorneys" className="nav-link">Attorney</Link>
             <Link to="/contact" className="nav-link">Contact</Link>
             <Link to="/contact" className="btn btn-primary">Get Consultation</Link>
           </nav>

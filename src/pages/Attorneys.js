@@ -7,8 +7,8 @@ const Attorneys = () => {
     <div className="attorneys">
       <section className="attorneys-hero section">
         <div className="container">
-          <h1>Our Legal Team</h1>
-          <p>Experienced attorneys dedicated to providing exceptional legal services</p>
+          <h1>Attorney Profile</h1>
+          <p>Meet John Williams, Esq. - Your trusted legal advisor</p>
         </div>
       </section>
 
@@ -22,11 +22,13 @@ const Attorneys = () => {
             </div>
             <div className="attorney-info">
               <h2>John Williams, Esq.</h2>
-              <h3>Principal Attorney</h3>
+              <h3>Principal Attorney & Professor</h3>
               <p>
                 John Williams is the founding attorney of The Law Office of John Williams, P.A. 
-                With extensive experience in real estate law, estate planning, and business transactions, 
-                John is committed to providing affordable and exceptional legal services to his clients.
+                As both a practicing attorney and professor, John brings a unique combination of 
+                academic expertise and real-world experience to his legal practice. With extensive 
+                experience in real estate law, estate planning, and business transactions, John is 
+                committed to providing affordable and exceptional legal services to his clients.
               </p>
               
               <div className="practice-areas">
@@ -46,6 +48,8 @@ const Attorneys = () => {
                   <li>Juris Doctor - [Law School]</li>
                   <li>Admitted to Delaware Bar</li>
                   <li>Member of Delaware State Bar Association</li>
+                  <li>Professor of Law - [University Name]</li>
+                  <li>Academic expertise in legal theory and practice</li>
                 </ul>
               </div>
 
@@ -57,15 +61,15 @@ const Attorneys = () => {
 
       <section className="team-values section">
         <div className="container">
-          <h2 className="text-center mb-8">Our Commitment to You</h2>
+          <h2 className="text-center mb-8">John's Commitment to You</h2>
           <div className="values-grid">
             <div className="value-card">
               <h3>Personalized Service</h3>
-              <p>We take the time to understand your unique situation and provide tailored legal solutions.</p>
+              <p>John takes the time to understand your unique situation and provide tailored legal solutions.</p>
             </div>
             <div className="value-card">
-              <h3>Affordable Rates</h3>
-              <p>We believe quality legal services should be accessible and offer competitive pricing.</p>
+              <h3>Academic Excellence</h3>
+              <p>As a professor, John brings deep theoretical knowledge combined with practical experience.</p>
             </div>
             <div className="value-card">
               <h3>Local Expertise</h3>
@@ -73,7 +77,7 @@ const Attorneys = () => {
             </div>
             <div className="value-card">
               <h3>Proven Results</h3>
-              <p>Track record of successful outcomes for our clients across all practice areas.</p>
+              <p>Track record of successful outcomes for clients across all practice areas.</p>
             </div>
           </div>
         </div>

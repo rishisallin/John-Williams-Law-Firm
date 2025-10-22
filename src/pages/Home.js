@@ -14,10 +14,6 @@ const Home = () => {
               Committed to bringing value to our clients by providing affordable legal services 
               that exceed their expectations.
             </p>
-            <div className="hero-buttons">
-              <Link to="/contact" className="btn">Get Free Consultation</Link>
-              <Link to="/attorneys" className="btn btn-secondary">Meet Our Team</Link>
-            </div>
           </div>
         </div>
       </section>
